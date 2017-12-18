@@ -1,0 +1,30 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# bmlm
+
+Manuscript for bayesian multilevel mediation R package
+[**bmlm**](https://cran.r-project.org/web/packages/bmlm/)
+
+  - Article:
+    <https://link.springer.com/article/10.3758%2Fs13428-017-0980-9>
+  - Software: <https://github.com/mvuorre/bmlm>
+
+# Compiling manuscript from R Markdown source
+
+To compile the manuscript in .pdf from the .Rmd source, ensure that
+software is up to date:
+
+  - R packages
+      - bmlm
+          - install.packages(“bmlm”)
+      - papaja
+          - devtools::install\_github(“crsh/papaja”)
+  - System
+      - pandoc
+          - <http://pandoc.org/installing.html>
+      - a recent TeX distribution.
+
+Then render the R Markdown file in `source/bmlm-ms.pdf`:
+
+    rmarkdown::render("source/bmlm-ms.Rmd")

@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# Ignore R Markdown output cache and files
+source/bmlm-ms_*
+output/
+figures/
+source/bmlm-ms.pdf
+# Ignore administrative PDFs and posters
+presentations/
+*.key
