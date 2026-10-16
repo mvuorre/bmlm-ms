@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: Code supplement to "Within-subject mediation analysis for experimental data in cognitive psychology and neuroscience"
+version: 1.0.0
+license: MIT
+type: software
+abstract: Code to reproduce the manuscript.
+message: "Please cite as indicated."
+authors:
+  - family-names: Vuorre
+    given-names: Matti
+    orcid: https://orcid.org/0000-0001-5052-066X
+    affiliation: Columbia University
+  - family-names: Bolger
+    given-names: Niall
+    orcid: https://orcid.org/0000-0001-8698-8117
+    affiliation: Columbia University
+keywords:
+  - psychology
+date-released: 2017-12-18
